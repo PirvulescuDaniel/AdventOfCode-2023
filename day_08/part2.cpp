@@ -64,7 +64,7 @@ int main()
     stepsVec.push_back(steps);
   }
 
-  //Compute CMMMC for all values(6) from stepsVec using a online tools...
+  //Compute CMMMC for all values(6) from stepsVec using an online tools...
 
   return 0;
 }
