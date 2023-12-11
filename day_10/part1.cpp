@@ -89,12 +89,8 @@ int main()
 
     auto maxSteps = std::numeric_limits<int>::min();
     for (int i = 0; i < LINE_NUM; i++)
-    {
         for (int j = 0; j < COLUMN_NUM; j++)
-        {
             maxSteps = std::max(maxSteps, distances[i][j]);
-        }
-    }
 
     g << maxSteps;
 
